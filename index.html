@@ -513,8 +513,9 @@
 
     /* grid placement */
     .pc-1 { grid-column: 1 / 6; }
-    .pc-2 { grid-column: 9 / 13; margin-top: -2rem; }
-    .pc-3 { grid-column: 4 / 9; margin-top: 5rem; }
+    .pc-2 { grid-column: 8 / 12; margin-top: -2rem; }
+    .pc-3 { grid-column: 4 / 8; margin-top: 5rem; }
+    .pc-4 { grid-column: 9 / 13; margin-top: 3rem; }
 
     .projects-note {
       text-align: right;
@@ -979,7 +980,7 @@
       .hero-bio-float { display: none; }
       .hero-bottom { flex-direction: column; align-items: flex-start; }
       .circles-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-      .pc-1,.pc-2,.pc-3 { grid-column: auto; margin-top: 0; }
+      .pc-1,.pc-2,.pc-3,.pc-4 { grid-column: auto; margin-top: 0; }
       .about-grid { grid-template-columns: 1fr; }
       .milestones { flex-direction: row; flex-wrap: wrap; justify-content: center; }
       .exp-row { grid-template-columns: 1fr; gap: 0.75rem; }
@@ -1143,26 +1144,24 @@
 
       <div class="circles-grid">
 
-        <!-- Soul Candle — large circle -->
+        <!-- Soul Candle — large circle with real logo -->
         <a href="https://ytydxn-he.myshopify.com" target="_blank" class="proj-circle img-circle pc-1 g-up"
            data-proj-name="Soul Candle — Creative Director"
            data-proj-pts='["Founded and directed the entire brand from scratch","Product design, scent creation &amp; visual identity","Financial management: pricing, margins &amp; P&amp;L","Manages operations, inventory &amp; customer experience"]'
            data-proj-pts-es='["Fundó y dirigió toda la marca desde cero","Diseño de producto, creación de aromas e identidad visual","Gestión financiera: precios, márgenes y PyG","Maneja operaciones, inventario y experiencia del cliente"]'>
-          <div class="logo-wrap" style="background:linear-gradient(145deg,#2e1065 0%,#6b21a8 50%,#f472b6 100%);flex-direction:column;gap:0.3rem;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(1.8rem,4.5vw,4.5rem);font-style:italic;letter-spacing:0.02em;color:#fdf4ff;line-height:1;">Soul</div>
-            <div style="font-family:'DM Sans',sans-serif;font-weight:300;font-size:clamp(0.9rem,2vw,2rem);letter-spacing:0.3em;color:#e9d5ff;text-transform:uppercase;">Candle</div>
+          <div class="logo-wrap" style="background:white;">
+            <img src="soul-candle.png" alt="Soul Candle" style="width:92%;height:92%;object-fit:contain;" />
           </div>
           <span class="dot-accent tl"></span>
         </a>
 
-        <!-- Red Arrow — small circle -->
+        <!-- Red Arrow — circle with real logo -->
         <a href="https://www.wyndhamhotels.com/travelodge/montrose-colorado/red-arrow-inn-and-suites-a-travelodge/overview" target="_blank" class="proj-circle img-circle pc-2 g-up" style="animation-delay:.1s"
            data-proj-name="Red Arrow Inn — Financial Operations"
            data-proj-pts='["Daily financial reconciliation &amp; cash management","Accounts receivable: debt collection &amp; portfolio recovery","Improved Google reviews through guest relations","Front desk operations &amp; team coordination"]'
            data-proj-pts-es='["Conciliación financiera diaria y gestión de caja","Cuentas por cobrar: cobro de deudas y recuperación de cartera","Mejoró reseñas de Google mediante relaciones con huéspedes","Operaciones de recepción y coordinación de equipo"]'>
-          <div class="logo-wrap" style="background:linear-gradient(145deg,#450a0a 0%,#991b1b 50%,#f87171 100%);flex-direction:column;gap:0.3rem;padding:1rem;">
-            <div style="font-family:'DM Sans',sans-serif;font-weight:900;font-size:clamp(1.6rem,4vw,4rem);letter-spacing:-0.02em;color:#fee2e2;line-height:1;">RED</div>
-            <div style="font-family:'DM Sans',sans-serif;font-weight:300;font-size:clamp(0.8rem,1.8vw,1.8rem);letter-spacing:0.2em;color:#fca5a5;text-transform:uppercase;">Arrow</div>
+          <div class="logo-wrap" style="background:white;padding:0.75rem;">
+            <img src="red-arrow.jpg" alt="Red Arrow Inn" style="width:90%;height:90%;object-fit:contain;" />
           </div>
         </a>
 
@@ -1178,6 +1177,16 @@
             <div class="proj-year" style="color:#7dd3fc;">2018 &mdash; 2023</div>
           </div>
           <span class="dot-accent br" style="background:rgba(125,211,252,0.5);"></span>
+        </div>
+
+        <!-- LLM Delivery — 4th circle with real logo -->
+        <div class="proj-circle img-circle pc-4 g-up" style="animation-delay:.3s"
+           data-proj-name="LLM Delivery – Amazon DSP"
+           data-proj-pts='["Driver Trainer at Amazon DSP warehouse DFL-4","Onboarding &amp; safety training for new drivers","Operational compliance &amp; logistics coordination","High-volume delivery operations management"]'
+           data-proj-pts-es='["Entrenadora de conductores en almacén DSP de Amazon DFL-4","Incorporación y formación en seguridad para nuevos conductores","Cumplimiento operacional y coordinación logística","Gestión de operaciones de entrega de alto volumen"]'>
+          <div class="logo-wrap" style="background:#0d2240;padding:1.2rem;">
+            <img src="llm-logo.png" alt="LLM Delivery" style="width:90%;height:90%;object-fit:contain;" />
+          </div>
         </div>
 
       </div>
